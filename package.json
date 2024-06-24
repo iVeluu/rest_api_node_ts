@@ -1,0 +1,23 @@
+{
+  "name": "rest_api_node_ts",
+  "version": "1.0.0",
+  "description": "REST API's con Express y TypeScript ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iVeluu/node.git"
+  },
+  "author": "Alejandro Luna",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iVeluu/node/issues"
+  },
+  "homepage": "https://github.com/iVeluu/node#readme",
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.2"
+  }
+}
