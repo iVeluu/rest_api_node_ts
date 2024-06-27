@@ -29,4 +29,4 @@ server.get('/api', (req, res) => {
     res.json({msg: 'Desde API'})
 })
 
-export default server
+export default server    
