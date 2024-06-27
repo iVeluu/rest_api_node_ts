@@ -1,6 +1,5 @@
 import e, { Request, Response } from "express"
 import Product from "../models/Product.models"
-import { validationResult } from "express-validator"
 
 export const getProducts = async ( req : Request, res : Response ) => {
         const products = await Product.findAll()

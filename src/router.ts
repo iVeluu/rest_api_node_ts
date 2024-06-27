@@ -8,7 +8,6 @@ const router = Router();
 //Routing
 router.get('/', getProducts) 
 router.get('/:id', 
-
     param('id').isInt().withMessage('ID no válido'),
     handleInputErrors,
     getProductById

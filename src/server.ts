@@ -11,7 +11,7 @@ export async function connectDB(){
         // console.log( colors.blue('Conexion exitosa a la BD'))
     } catch (error) {
         // console.log(error)
-        console.log( colors.bgRed.white('Hubo un error al conectar con la base de datos'))
+        console.log( colors.red.bold('Hubo un error al conectar con la base de datos'))
     }
 }
 
