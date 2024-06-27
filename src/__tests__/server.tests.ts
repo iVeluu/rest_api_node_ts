@@ -28,6 +28,5 @@ describe('connectDB', () => {
         expect(consoleSpy).toHaveBeenCalledWith(
             expect.stringContaining('Hubo un error al conectar con la base de datos')
         )
-
     })
 })
