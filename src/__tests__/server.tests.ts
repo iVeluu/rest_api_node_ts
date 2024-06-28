@@ -3,6 +3,8 @@ import db from '../config/db'
 
 jest.mock('../config/db')
 
+//comentario
+
 describe('connectDB', () => {
     it('should handle database connection error', async () => {
         jest.spyOn(db, 'authenticate')
