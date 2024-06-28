@@ -31,3 +31,5 @@ server.use('/docs', swaggerUi.serve, swaggerUi.setup(swaggerSpec, swaggerUiOptio
 
 
 export default server    
+
+//PRUEBA DE VER SI ESTO FUNCIONA
