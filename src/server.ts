@@ -27,7 +27,7 @@ const server = express()
 //Permitir conexiones 
 const corsOptions : CorsOptions = {
     origin: function( origin, callback ) {
-        if( origin === process.env.FRONTEND_URL || 'http://localhost:4000'){
+        if( origin === process.env.FRONTEND_URL){
             callback(null, true)
         } else {
             callback(new Error('Error de CORS'))
