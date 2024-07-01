@@ -2,7 +2,7 @@
     "compilerOptions": {
         "outDir": "./dist",
         "rootDir": "./src",
-        "lib": ["ESNext"],
+        "lib": ["esnext"],
         "target": "ESNext",
         "moduleResolution": "NodeNext",
         "module": "NodeNext",
@@ -13,5 +13,6 @@
         "experimentalDecorators": true,
         "emitDeclarationOnly": true
     },
-    "include": ["src/**/*.ts"]
+    "include": ["src/**/*.ts"],
+    "exclude": ["src/**/__tests__"]
 }
